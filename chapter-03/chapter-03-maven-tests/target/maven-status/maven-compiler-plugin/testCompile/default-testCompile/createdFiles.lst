@@ -1,0 +1,3 @@
+org\drools\devguide\chapter03\KieSessionSerializingTest.class
+org\drools\devguide\chapter03\KieScannerTest.class
+org\drools\devguide\chapter03\KieContainerMavenTests.class

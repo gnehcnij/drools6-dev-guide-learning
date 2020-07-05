@@ -1,0 +1,16 @@
+package rules;
+
+rule "Test"
+    when
+        $s : String()
+    then
+        System.out.println("555555555555555555555555555");
+        update($s);
+end
+
+rule "Test 2"
+salience 1
+    when
+    then
+        System.out.println("666666666666666666666666666");
+end

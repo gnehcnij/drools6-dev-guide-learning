@@ -1,0 +1,6 @@
+This is a stronger version of no-loop as the change can now be caused not only by
+the rule itself. It's ideal for calculation rules, where you have a number of rules that
+modify a fact and you don't want any rule re-matching and firing again. Only when
+the ruleflow-group is no longer active or the agenda group loses the focus; these
+rules, with lock-on-active set to true, become eligible again for matching on the same
+objects to be possible again.
